@@ -11,7 +11,7 @@ Images or photos used as training data obtained from several corn crop plantatio
 
 Fig.  1. a. separate weeds, b. weeds, c. weeds clustered, d. different lighting
 
-The image is taken from above, to get the position of the image that used to the machine later. Images of corn plants taken about 1000 pictures / photos with different factors. The photo taken has JPG format. With image sizes of 4000x3000, 4608x2128, and 4160x3120. By using different pixel levels, it is expected to get a different calculation level for each image. For the machine to be implemented it will look like this.
+The image is taken from above, to get the position of the image that used to the machine later. Images of corn plants taken about 1000 pictures / photos with different factors. The photo taken has JPG format. With image sizes of 4000x3000, 4608x2128, and 4160x3120. By using different pixel levels, it is expected to get a different calculation level for each image. 
 
 ![alt text](https://github.com/dp-aji/Mask-RCNN-weeds/blob/f217fdb853e79f1f29b37b4569589db96882df32/assets/fig%202.png)
 
