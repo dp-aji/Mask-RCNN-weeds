@@ -62,4 +62,5 @@ To determine the location as the midpoint of the image is taken from the result 
 
 Fig.  9. Centroid detection
 
+from fig 9. we can see how many objects detected in the image, and also the coordination of the centroid from the each object.
 for the use of instance segmentation and centroid are the good combination to detect objects that have different sizes and shapes. the development for the model can be more optimal and have more potential to be developed in many ways.
