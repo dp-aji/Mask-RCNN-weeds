@@ -1,5 +1,5 @@
 # Mask RCNN instance segmentation for weeds detection
-Deep learning already has the capability to study images that can be used in object detection with instance segmentation. To develop human performance in overcoming weeds detection with deep learning.
+/t Deep learning already has the capability to study images that can be used in object detection with instance segmentation. To develop human performance in overcoming weeds detection with deep learning.
 instance segmentation can be useful for this project, because weeds can growth with different size and shape, in that case instance segmentation is the proper detection on this project.
 Then after MASK RCNN can detect the weeds with shape and location of the weeds, a feature was added to determine the center of the detection or centroid. which can be developed as a herbicide spraying point or can be used for other developments. this centroid point is a very useful feature in this weeds case.
 
