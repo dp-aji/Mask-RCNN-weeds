@@ -4,7 +4,6 @@ instance segmentation can be useful for this project, because weeds can growth w
 Then after MASK RCNN can detect the weeds with shape and location of the weeds, a feature was added to determine the center of the detection or centroid. which can be developed as a herbicide spraying point or can be used for other developments. this centroid point is a very useful feature in this weeds case.
 
 # Image Acquisition
-A.	Image acquisition
 Images or photos used as training data obtained from several corn crop plantations in Curup, Bengkulu. picture taken by using a mobile phone camera, the picture of corn plants that have weeds around the corn, and the age of corn plants is about 1-2 weeks, when the of corn still small look like the weeds. The appearance of corn plants similar like weed plants. Here are some examples of photos for dataset taken that with differentiating factors.
 
 ![alt text](https://github.com/dp-aji/Mask-RCNN-weeds/blob/071db9ae0eff4c1a6b5cce510c501b773cca5179/assets/fig%201.png)
