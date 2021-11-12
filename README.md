@@ -45,8 +45,11 @@ Fig.  7. How MASK RCNN work
 1. Feature extraction and generation of RoIs(ResNet101 + FPN + RPN)
 
 Deep neural network models there are various, for example such as AlexNet, VGG, GoogleNet and ResNet which are main models of deep neural networks. As more layers in a deep neural network, it will result in higher accuracy. However, it will reduce the speed of the training model and detection model. Because the initial structure cannot improve the parameters of the model, using a backbone network such as ResNet can make it easier to extract features contained in the model. The features extracted on the image depend on convolution layers. Low-level features such as edges/ends and angles, extracted by the underlying network. For high-level features that can describe categories on targets extracted to a higher level. 
+
 For different scales, feature pyramid networks (FPNs) are used to help in the backbone network. The top-level feature of the FPN architecture is combined with the underlying features with up-sampling, where each layer itself predicts feature maps. 
+
 Then the feature map results from the backbone network are used for rpn network. In RPN there are sliding windows, in sliding windows itself has anchors by having different area-scales and length-width ratios to produce Region of Interest (RoIs). For anchors that have been produced, RPN has 2 tasks, namely: (1) SoftMax-Loss layer used for train and classify anchor produced; (2) SmoothL1 layer is used to modify the coordinates of anchors.
+
 2. Target detection and instance segmentation (RoIAlign + FC/FCN)
 
 The results of RPN and feature map go to RoIAlign, from RoIAlign separated into 2 branches, namely into a box head containing Full Connected Layer into bounding box / regression box and classification / classes. Mask head that contains convolution layer which then processes generate mask. Where this mask is an instance segmentation, which is to recognize pixels as objects of a particular class. RoIAlign extracted several features on each RoI in the feature maps using bilinear interpolation, replacing roi pooling that was in its predecessor Faster R-CNN.
