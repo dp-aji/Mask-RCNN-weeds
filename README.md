@@ -58,7 +58,7 @@ Fig.  8. Mask and bounding box
 
 To determine the location as the midpoint of the image is taken from the result of the segmentation instance of the weed image. It can also show the number of objects in the image and the name of the object. after generating mask from weeds.
 
-![alt text](https://github.com/dp-aji/Mask-RCNN-weeds/blob/7dfc83ac2b47b4e6622c4571a6286fea9ebcc660/assets/fig%208.png)
+![alt text](https://github.com/dp-aji/Mask-RCNN-weeds/blob/7dfc83ac2b47b4e6622c4571a6286fea9ebcc660/assets/fig%209.png)
 
 Fig.  9. Centroid detection
 
